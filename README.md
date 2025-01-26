@@ -16,38 +16,28 @@ Uma aplicação moderna e minimalista de lista de tarefas construída com Vue.js
 - CSS Moderno
 - Google Fonts (Inter)
 
-## ⚙️ Como Executar
+🚀 Como executar o projeto
 
-1. Clone o repositório
-bash
-git clone https://github.com/Roberto10Andrade/lista-de-tarefas.git
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Roberto10Andrade/lista-de-tarefas.git
+`
 
-2. Entre na pasta do projeto
-bash
+2. Entre na pasta do projeto:
+  ```bash
 cd lista-de-tarefas
+```
 
-
-3. Instale as dependências
-bash
+3. Instale as dependências:
+  ```bash
 npm install
+```
 
-
-4. Execute o projeto
-bash
-npm run serve
-
-
-5. Acesse `http://localhost:8080` no seu navegador
-
-## 👨‍💻 Autor
-
-- Roberto Andrade
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT.
-
-Depois de criar o arquivo, adicione-o ao Git:
-git add README.md
-git commit -m "Adiciona README ao projeto"
-git push
+4. Execute o projeto:
+  ```bash
+npm run dev
+```
+5. Acesse no navegador: Abra o seguinte endereço no navegador:
+  ```bash
+[http://localhost:5173
+```
