@@ -13,15 +13,13 @@ Uma aplicação moderna e minimalista de lista de tarefas construída com Vue.js
 ## 🛠️ Tecnologias Utilizadas
 
 - Vue.js
-- CSS Moderno
-- Google Fonts (Inter)
 
 🚀 Como executar o projeto
 
 1. Clone o repositório:
-   ```bash
+```bash
    git clone https://github.com/Roberto10Andrade/lista-de-tarefas.git
-`
+```
 
 2. Entre na pasta do projeto:
   ```bash
