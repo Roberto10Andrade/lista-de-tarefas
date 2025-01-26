@@ -1,0 +1,147 @@
+body {
+  background: #f5f5f5;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+}
+
+#app {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.form-container {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  width: 85%;
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+input {
+  width: 90%;
+  background: #f8f9fa;
+  border: 2px solid #e9ecef;
+  padding: 15px 25px;
+  border-radius: 12px;
+  color: #495057;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #228be6;
+  background: white;
+}
+
+input::placeholder {
+  color: #adb5bd;
+}
+
+button {
+  width: 50%;
+  background: #228be6;
+  color: white;
+  border: none;
+  padding: 0 30px;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  height: 50px;
+}
+
+button:hover {
+  background: #1c7ed6;
+  transform: translateY(-2px);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 85%;
+  max-width: 650px;
+}
+
+li {
+  background: white;
+  margin: 15px 0;
+  padding: 20px 25px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+  border: 1px solid #e9ecef;
+}
+
+li span {
+  color: #495057;
+  font-size: 1.1rem;
+  cursor: pointer;
+  flex: 1;
+  margin-right: 15px;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: #adb5bd;
+}
+
+li button {
+  width: auto;
+  background: #fa5252;
+  padding: 8px 16px;
+  height: auto;
+  font-size: 0.9rem;
+}
+
+li button:hover {
+  background: #e03131;
+}
+
+@media (max-width: 640px) {
+  .form-container {
+    padding: 20px;
+    width: 90%;
+  }
+
+  input {
+    width: 85%;
+    padding: 12px 20px;
+  }
+
+  button {
+    width: 85%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+} 
