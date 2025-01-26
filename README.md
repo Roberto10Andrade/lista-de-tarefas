@@ -1,29 +1,41 @@
-# lista-de-tarefas
+# Lista de Tarefas
 
-This template should help get you started developing with Vue 3 in Vite.
+Uma aplicação moderna e minimalista de lista de tarefas construída com Vue.js.
 
-## Recommended IDE Setup
+## 💡 Funcionalidades
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- ✅ Adicionar novas tarefas
+- ✔️ Marcar tarefas como concluídas
+- 🗑️ Remover tarefas
+- 📱 Design responsivo
+- 🎨 Interface limpa e moderna
 
-## Customize configuration
+## 🛠️ Tecnologias Utilizadas
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Vue.js
 
-## Project Setup
+🚀 Como executar o projeto
 
-```sh
+1. Clone o repositório:
+```bash
+   git clone https://github.com/Roberto10Andrade/lista-de-tarefas.git
+```
+
+2. Entre na pasta do projeto:
+  ```bash
+cd lista-de-tarefas
+```
+
+3. Instale as dependências:
+  ```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
+4. Execute o projeto:
+  ```bash
 npm run dev
 ```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
+5. Acesse no navegador: Abra o seguinte endereço no navegador:
+  ```bash
+[http://localhost:5173
 ```
