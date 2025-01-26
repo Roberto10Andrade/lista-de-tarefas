@@ -14,7 +14,7 @@ Uma aplicação moderna e minimalista de lista de tarefas construída com Vue.js
 
 - Vue.js
 
-🚀 Como executar o projeto
+## 🚀 Como executar o projeto
 
 1. Clone o repositório:
 ```bash
