@@ -13,7 +13,17 @@
       <li v-for="(task, index) in tasks" 
           :key="index"
           :class="{ completed: task.completed }">
-        <span @click="toggleCompletion(task)">{{ task.text }}</span>
+        <div class="task-content">
+          <label class="checkbox-container">
+            <input 
+              type="checkbox" 
+              :checked="task.completed"
+              @change="toggleCompletion(task)"
+            >
+            <span class="checkmark"></span>
+          </label>
+          <span class="task-text">{{ task.text }}</span>
+        </div>
         <button @click="removeTask(index)">Remover</button>
       </li>
     </ul>

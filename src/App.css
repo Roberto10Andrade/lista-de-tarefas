@@ -91,7 +91,7 @@ ul {
 li {
   background: white;
   margin: 15px 0;
-  padding: 20px 25px;
+  padding: 15px 20px;
   border-radius: 12px;
   display: flex;
   justify-content: space-between;
@@ -101,15 +101,76 @@ li {
   border: 1px solid #e9ecef;
 }
 
-li span {
-  color: #495057;
-  font-size: 1.1rem;
-  cursor: pointer;
+.task-content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
   flex: 1;
-  margin-right: 15px;
 }
 
-li.completed span {
+.checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  height: 24px;
+  width: 24px;
+  background-color: #f8f9fa;
+  border: 2px solid #e9ecef;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.checkbox-container:hover input ~ .checkmark {
+  background-color: #e9ecef;
+}
+
+.checkbox-container input:checked ~ .checkmark {
+  background-color: #228be6;
+  border-color: #228be6;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.checkbox-container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.task-text {
+  font-size: 1.1rem;
+  color: #495057;
+}
+
+li.completed .task-text {
   text-decoration: line-through;
   color: #adb5bd;
 }
