@@ -35,7 +35,8 @@ npm install
   ```bash
 npm run dev
 ```
-5. Acesse no navegador: Abra o seguinte endereço no navegador:
+5. Acesse no navegador:
+   Abra o seguinte endereço no navegador:
   ```bash
 http://localhost:5173
 ```
